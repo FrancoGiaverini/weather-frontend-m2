@@ -81,4 +81,4 @@ https://github.com/FrancoGiaverini/weather-frontend-m2.git
 ## Autor
 
 Franco Giaverini
-Proyecto desarrollado para el Módulo 2 del Bootcamp Full Stack.
+Proyecto desarrollado para el Módulo 2.
