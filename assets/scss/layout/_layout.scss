@@ -10,3 +10,7 @@ body {
 .weather-app__content {
   min-height: calc(100vh - 180px);
 }
+
+.weather-app__search {
+  max-width: 100%;
+}

@@ -40,17 +40,32 @@
     </header>
 
     <main class="weather-app__content container py-5">
-      <section class="weather-app__hero text-center mb-5">
-        <h1 class="display-5 fw-bold">Clima en Chile</h1>
+    <section class="weather-app__hero text-center mb-5">
+  <h1 class="display-5 fw-bold">Clima en Chile</h1>
 
-        <p class="lead">
-          Consulta las condiciones climáticas de distintas ciudades del país.
-        </p>
-      </section>
+  <p class="lead">
+    Consulta las condiciones climáticas de distintas ciudades del país.
+  </p>
+</section>
 
-      <section class="weather-app__results">
-        <div id="citiesContainer" class="row g-4"></div>
-      </section>
+<section class="weather-app__search mb-5">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-8 col-lg-6">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Buscar ciudad..."
+      />
+    </div>
+  </div>
+</section>
+
+<section class="weather-app__results">
+  <div
+    id="citiesContainer"
+    class="weather-app__cities row g-4"
+  ></div>
+</section>
     </main>
 
     <footer class="weather-app__footer bg-dark text-white text-center py-4">
