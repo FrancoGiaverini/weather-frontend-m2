@@ -9,33 +9,45 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
 
   <body>
-    <header>
+    <header class="weather-app__header">
       <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
-          <a class="navbar-brand" href="index.html"> 🌤 Weather Frontend M2 </a>
-          <a href="index.html" class="btn btn-light"> ← Volver al inicio </a>
+          <a class="navbar-brand" href="index.html">
+            🌤 Weather Frontend M3
+          </a>
+
+          <a href="index.html" class="btn btn-light">
+            Volver al inicio
+          </a>
         </div>
       </nav>
     </header>
 
-    <main class="container mt-4">
+    <main class="weather-app__content container py-5">
       <section id="cityDetail"></section>
 
-      <section class="mt-5">
-        <h2>Pronóstico semanal</h2>
+      <section class="weather-app__forecast mt-5">
+        <h2 class="mb-4">Pronóstico semanal</h2>
 
-        <div id="forecastContainer" class="row"></div>
+        <div id="forecastContainer" class="row g-3"></div>
       </section>
     </main>
-    <footer class="bg-dark text-white text-center p-4 mt-5">
-      <p class="mb-1">Weather Frontend M2</p>
-      <p class="mb-1">Proyecto desarrollado para el Módulo 2</p>
-      <p class="mb-0">Franco Giaverini</p>
+
+    <footer class="weather-app__footer bg-dark text-white text-center py-4">
+      <div class="container">
+        <p class="mb-1">Weather Frontend M3</p>
+        <p class="mb-1">Aplicación de consulta climática de ciudades chilenas</p>
+        <p class="mb-0">Franco Giaverini © 2026</p>
+      </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
     <script src="./assets/js/data.js"></script>
     <script src="./assets/js/detail.js"></script>
   </body>
