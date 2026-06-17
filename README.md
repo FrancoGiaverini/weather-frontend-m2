@@ -1,8 +1,8 @@
-# Weather Frontend M2
+# Weather Frontend M3
 
 ## Descripción
 
-Weather Frontend M2 es una app desarrollada como proyecto  utilizando HTML5, Bootstrap y JavaScript para el proyecto final del modulo 2. La aplicación permite ver información climática de distintas localidades de Chile.
+Weather Frontend M3 es una app desarrollada como proyecto  utilizando HTML5, Bootstrap y JavaScript para el proyecto final del modulo 3. La aplicación permite ver información climática de distintas localidades de Chile.
 
 Los usuarios pueden consultar el clima de cada localidad y acceder a una vista con información adicional como humedad, velocidad del viento y pronóstico semanal.
 
@@ -27,7 +27,6 @@ Los usuarios pueden consultar el clima de cada localidad y acceder a una vista c
 * Diseño responsivo para dispositivos móviles y escritorio.
 * Navegación mediante Navbar.
 
----
 
 ## Tecnologías Utilizadas
 
@@ -35,30 +34,55 @@ Los usuarios pueden consultar el clima de cada localidad y acceder a una vista c
 * CSS3
 * Bootstrap 5
 * JavaScript
+* SASS
 
----
+## Estructura Sass
+
+base/
+Variables globales.
+
+layout/
+Estructura principal de la aplicación.
+
+components/
+Componentes reutilizables como navbar, cards y footer.
+
+## Metodología de estilos
+
+Se utilizó la metodología BEM  para organizar y mantener los estilos CSS de forma consistente.
 
 ## Estructura del Proyecto
 
-```text
-weather-frontend-m2/
+weather-frontend-m3/
 │
 ├── index.html
 ├── detail.html
+├── README.md
 │
 ├── assets/
-│   ├── css/
-│   │   └── styles.css
 │   │
-│   └── js/
-│       ├── data.js
-│       ├── home.js
-│       └── detail.js
-│
-└── README.md
-```
-
----
+│   ├── css/
+│   │   └── main.css
+│   │
+│   ├── js/
+│   │   ├── data.js
+│   │   ├── home.js
+│   │   └── detail.js
+│   │
+│   └── scss/
+│       │
+│       ├── base/
+│       │   └── _variables.scss
+│       │
+│       ├── layout/
+│       │   └── _layout.scss
+│       │
+│       ├── components/
+│       │   ├── _navbar.scss
+│       │   ├── _place-card.scss
+│       │   └── _footer.scss
+│       │
+│       └── main.scss
 
 ## Cómo ejecutar el proyecto
 
