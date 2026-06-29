@@ -84,7 +84,17 @@ weather-frontend-m3/
 │       │
 │       └── main.scss
 
+## Lógica implementada
 
+La información climática se almacena en un arreglo de objetos (`cities`), donde cada ciudad contiene sus datos actuales y un pronóstico semanal.
+
+La aplicación utiliza funciones para:
+
+- Buscar una ciudad mediante su identificador.
+- Calcular la temperatura mínima, máxima y promedio.
+- Contar la cantidad de días por tipo de clima.
+- Generar automáticamente un resumen semanal.
+- Actualizar dinámicamente el contenido del DOM.
 
 ## Cómo ejecutar el proyecto
 
