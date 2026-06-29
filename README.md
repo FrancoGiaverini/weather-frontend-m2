@@ -1,11 +1,12 @@
-# Weather Frontend M3
+# Weather Frontend M4
 
 ## Descripción
 
-Weather Frontend M3 es una app desarrollada como proyecto  utilizando HTML5, Bootstrap y JavaScript para el proyecto final del modulo 3. La aplicación permite ver información climática de distintas localidades de Chile.
+Weather Frontend M4 es una app desarrollada como proyecto  utilizando HTML5, Bootstrap y JavaScript para el proyecto final del modulo 3. La aplicación permite ver información climática de distintas localidades de Chile.
 
 Los usuarios pueden consultar el clima de cada localidad y acceder a una vista con información adicional como humedad, velocidad del viento y pronóstico semanal.
 
+En esta versión se incorporó la lógica de programación utilizando arreglos, objetos, funciones, ciclos, condicionales y manipulación del DOM para calcular estadísticas del clima de cada ciudad.
 ---
 
 ## Funcionalidades
@@ -24,6 +25,10 @@ Los usuarios pueden consultar el clima de cada localidad y acceder a una vista c
   * Humedad.
   * Velocidad del viento.
 * Pronóstico semanal.
+* Estadísticas semanales calculadas dinámicamente.
+* Temperatura mínima, máxima y promedio.
+* Conteo de días soleados, nublados y lluviosos.
+* Resumen automático del clima semanal.
 * Diseño responsivo para dispositivos móviles y escritorio.
 * Navegación mediante Navbar.
 
