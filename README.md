@@ -84,6 +84,8 @@ weather-frontend-m3/
 │       │
 │       └── main.scss
 
+
+
 ## Cómo ejecutar el proyecto
 
 1. Clonar el repositorio:
