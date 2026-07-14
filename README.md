@@ -155,3 +155,9 @@ Las alertas se generan mediante reglas :
 
 ---
 
+## Cómo ejecutar el proyecto
+
+1. Clonar el repositorio:
+
+```bash
+git https://github.com/FrancoGiaverini/weather-frontend-m2.git
